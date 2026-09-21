@@ -2,51 +2,51 @@
 
 # Nathan Ferreira de Lima
 
-### Mechatronics · Electrical Systems · Embedded Systems · Software · AI
+### Mecatrônica · Sistemas Elétricos · Sistemas Embarcados · Software · IA
 
-**Building systems where hardware, electrical engineering and software meet.**
+**Construindo sistemas onde hardware, engenharia elétrica e software se encontram.**
 
-Brazil 🇧🇷
+Brasil 🇧🇷
 
 </div>
 
 ---
 
-> From electrical signals and microcontrollers to APIs, databases and AI agents — I like working where the physical and digital worlds collide.
+> De sinais elétricos e microcontroladores a APIs, bancos de dados e agentes de IA — gosto de trabalhar exatamente onde o mundo físico encontra o digital.
 
-I'm a **Mechatronics Technician** working at the intersection of **electrical engineering, industrial systems, embedded electronics and software development**.
+Sou **Técnico em Mecatrônica** e atuo na interseção entre **sistemas elétricos, automação industrial, eletrônica embarcada e desenvolvimento de software**.
 
-Most of my projects start with a real engineering problem: a test instrument, a protection system, an industrial process or an operational workflow. From there, I build the hardware/software bridge needed to measure, control, automate and improve it.
+Grande parte dos meus projetos começa com um problema real de engenharia: um equipamento de ensaio, um sistema de proteção, um processo industrial ou um fluxo operacional. A partir daí, desenvolvo a ponte entre hardware e software necessária para medir, controlar, automatizar e melhorar esse processo.
 
-## What I work on
+## No que eu trabalho
 
-### ⚡ Electrical & Industrial Systems
+### ⚡ Sistemas Elétricos & Industriais
 
-- Medium- and low-voltage electrical systems
-- Protection relays and protection studies
-- Commissioning and electrical testing
-- Preventive and corrective maintenance
-- Electrical diagnostics and instrumentation
-- Industrial automation
+- Sistemas elétricos de média e baixa tensão
+- Relés de proteção e estudos de proteção
+- Comissionamento e ensaios elétricos
+- Manutenção preventiva e corretiva
+- Diagnóstico elétrico e instrumentação
+- Automação industrial
 
-### 🔬 Embedded Systems
+### 🔬 Sistemas Embarcados
 
-I work with embedded hardware and firmware involving:
+Trabalho com hardware e firmware envolvendo:
 
-- PIC microcontrollers
-- UART and USB HID communication
-- Bootloaders and firmware update flows
-- ADC acquisition and calibration
-- TRIAC phase control
-- Human-machine interfaces
-- PC ↔ embedded-device protocols
-- Test and measurement equipment
+- Microcontroladores PIC
+- Comunicação UART e USB HID
+- Bootloaders e atualização de firmware
+- Aquisição e calibração por ADC
+- Controle de fase com TRIAC
+- Interfaces homem-máquina
+- Protocolos entre PC e dispositivos embarcados
+- Equipamentos de teste e medição
 
-A recurring theme in my work is **modernizing legacy electrical test equipment without losing the behavior already proven in the field**.
+Um tema recorrente nos meus projetos é a **modernização de equipamentos elétricos legados sem perder comportamentos já validados em campo**.
 
-### 💻 Software Engineering
+### 💻 Engenharia de Software
 
-My engineering projects increasingly evolve into complete software products.
+Meus projetos de engenharia vêm evoluindo cada vez mais para produtos de software completos.
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
@@ -59,81 +59,81 @@ My engineering projects increasingly evolve into complete software products.
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
 </p>
 
-Areas I have been working with:
+Áreas em que venho trabalhando:
 
-- REST APIs and backend services
-- PostgreSQL and database migrations
-- modular monoliths and multi-tenant systems
-- PWAs and responsive web applications
-- desktop applications with PySide6 / Qt
-- automated testing and CI
-- legacy-system modernization
-- engineering software for electrical test systems
+- APIs REST e serviços backend
+- PostgreSQL e migrações de banco de dados
+- Monólitos modulares e sistemas multi-tenant
+- PWAs e aplicações web responsivas
+- Aplicações desktop com PySide6 / Qt
+- Testes automatizados e CI
+- Modernização de sistemas legados
+- Software de engenharia para sistemas de ensaio elétrico
 
-### 🤖 Artificial Intelligence
+### 🤖 Inteligência Artificial
 
-I'm especially interested in AI as an **engineering tool**, not just a chat interface.
+Tenho interesse especial em IA como **ferramenta de engenharia**, e não apenas como interface de conversa.
 
-My current work includes:
+Atualmente venho trabalhando com:
 
-- AI-assisted software development
-- autonomous development agents
-- tool-calling LLMs
-- local and cloud model infrastructure
-- deterministic validation around AI systems
-- natural-language interfaces over structured data
-- AI-assisted legacy modernization
+- Desenvolvimento de software assistido por IA
+- Agentes autônomos de desenvolvimento
+- LLMs com tool calling
+- Infraestrutura para modelos locais e em nuvem
+- Validação determinística ao redor de sistemas de IA
+- Interfaces em linguagem natural para dados estruturados
+- Modernização de sistemas legados assistida por IA
 
 ---
 
-## Featured project
+## Projeto em destaque
 
 ### [AI Sales Agent](https://github.com/nathanflima99/ai-sales-agent-challenge)
 
-An AI agent that answers natural-language questions over a dataset with more than **200,000 sales records**.
+Agente de IA capaz de responder perguntas em linguagem natural sobre um conjunto com mais de **200 mil registros de vendas**.
 
-The architecture separates language reasoning from numerical computation:
+A arquitetura separa o raciocínio linguístico do cálculo numérico:
 
-> **The LLM interprets and explains. DuckDB calculates.**
+> **O LLM interpreta e explica. O DuckDB calcula.**
 
-Instead of trusting the model to invent or calculate business numbers, queries are executed against the dataset and the generated SQL remains visible and auditable.
+Em vez de confiar ao modelo a geração de números de negócio, as consultas são executadas diretamente sobre os dados, mantendo o SQL gerado visível e auditável.
 
-Technologies include **Python, FastAPI, DuckDB, Docker, LLM tool calling, OpenAI/Ollama integration and automated tests**.
+Tecnologias utilizadas: **Python, FastAPI, DuckDB, Docker, LLM tool calling, OpenAI/Ollama e testes automatizados**.
 
 ---
 
-## How I think about engineering
+## Como eu penso engenharia
 
 ```text
-Understand the physical system
-            ↓
-Measure what actually happens
-            ↓
-Model the behavior
-            ↓
-Automate what is repeatable
-            ↓
-Build the software around reality
+Entender o sistema físico
+          ↓
+Medir o que realmente acontece
+          ↓
+Modelar o comportamento
+          ↓
+Automatizar o que é repetível
+          ↓
+Construir o software ao redor da realidade
 ```
 
-I believe good engineering is less about choosing the newest technology and more about understanding **where reality can prove our assumptions wrong**.
+Acredito que boa engenharia tem menos a ver com escolher a tecnologia mais nova e mais a ver com entender **onde a realidade pode provar que nossas suposições estavam erradas**.
 
 ---
 
-## Currently exploring
+## Atualmente explorando
 
-- Industrial AI
-- Machine learning applied to industry
-- Embedded instrumentation
-- Protection-relay test systems
-- Modern firmware architectures
-- AI-assisted software engineering
-- Hardware/software integration
+- IA aplicada à indústria
+- Machine Learning aplicado à indústria
+- Instrumentação embarcada
+- Sistemas de ensaio para relés de proteção
+- Arquiteturas modernas de firmware
+- Engenharia de software assistida por IA
+- Integração entre hardware e software
 
 ---
 
 <div align="center">
 
-**Hardware deserves good software. Software deserves contact with reality.**
+**Hardware merece bom software. Software merece contato com a realidade.**
 
 </div>
