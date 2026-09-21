@@ -72,6 +72,26 @@ Areas I have been working with:
 - Legacy-system modernization
 - Engineering software for electrical test systems
 
+### 🏢 ERP & Business Systems
+
+I also have hands-on experience designing and evolving **ERP and internal management systems** for service-oriented operations.
+
+This includes work on:
+
+- customer, location and contact management
+- quotations, costing and pricing workflows
+- services, resources and labor management
+- work orders and scheduling
+- fleet, mileage and field-operation workflows
+- logistics and operational costs
+- roles, permissions and auditability
+- multi-tenant architecture
+- migration from legacy SQLite systems to PostgreSQL
+- progressive replacement of legacy applications while preserving business rules and historical data
+- integrations and synchronization with external business platforms
+
+What interests me most in ERP development is not just building screens, but translating real operational rules into software without losing the knowledge already embedded in the business.
+
 ### 🤖 Artificial Intelligence
 
 I'm especially interested in AI as an **engineering tool**, not just a chat interface.
@@ -131,6 +151,7 @@ I believe good engineering is less about choosing the newest technology and more
 - Modern firmware architectures
 - AI-assisted software engineering
 - Hardware/software integration
+- ERP architecture and operational automation
 
 ---
 
@@ -200,6 +221,26 @@ Meus projetos de engenharia vêm evoluindo cada vez mais para produtos de softwa
 - Modernização de sistemas legados
 - Software de engenharia para sistemas de ensaio elétrico
 
+### 🏢 ERP & Sistemas de Gestão
+
+Também tenho experiência prática no desenvolvimento e evolução de **ERPs e sistemas internos de gestão** voltados a operações de prestação de serviços.
+
+Esse trabalho envolve:
+
+- gestão de clientes, unidades e contatos
+- orçamentos, custos e formação de preços
+- serviços, recursos e mão de obra
+- ordens de serviço e agendamentos
+- frota, quilometragem e operações de campo
+- logística e custos operacionais
+- perfis, permissões e auditoria
+- arquitetura multi-tenant
+- migração de sistemas legados em SQLite para PostgreSQL
+- substituição progressiva de aplicações legadas preservando regras de negócio e histórico
+- integrações e sincronização com plataformas externas de gestão
+
+O que mais me interessa em ERP não é apenas construir telas, mas **transformar regras operacionais reais em software sem perder o conhecimento que já existe dentro do negócio**.
+
 ### 🤖 Inteligência Artificial
 
 Tenho interesse especial em IA como **ferramenta de engenharia**, e não apenas como interface de conversa.
@@ -251,6 +292,7 @@ Acredito que boa engenharia tem menos a ver com escolher a tecnologia mais nova 
 - Arquiteturas modernas de firmware
 - Engenharia de software assistida por IA
 - Integração entre hardware e software
+- Arquitetura de ERP e automação operacional
 
 <div align="center">
 
