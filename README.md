@@ -20,6 +20,55 @@ I'm a **Mechatronics Technician** working at the intersection of **electrical sy
 
 Most of my projects start with a real engineering problem: a test instrument, a protection system, an industrial process or an operational workflow. From there, I build the hardware/software bridge needed to measure, control, automate and improve it.
 
+## What I'm building now
+
+My current work is centered around three connected fronts:
+
+### E&S Platform
+
+A new **multi-tenant operational platform** for engineering and field-service companies, built as a modular monolith with **FastAPI, Next.js and PostgreSQL**.
+
+Recent work includes:
+
+- multi-tenant customer, contact and quotation domains
+- migration and synchronization with a legacy Streamlit/SQLite ERP
+- a canonical Messaging Core for business conversations
+- real SMTP outbound and incremental IMAP inbound
+- e-mail threading and conversation reconstruction
+- deterministic commercial follow-up with persisted attempts and idempotency
+- explicit proposal-recipient/contact handling across legacy and new platform
+- auditability, retry safety and progressive replacement of legacy workflows
+- preparation for AI-assisted inbound handling through **Volt**, an agent designed to operate on top of the same messaging and domain services used by humans
+
+The main architectural idea is to replace the legacy system gradually without losing the business rules already validated in production.
+
+### Electrical test equipment & embedded instrumentation
+
+I continue developing and modernizing electrical test equipment involving **PIC and STM32 microcontrollers**, PC software and power electronics.
+
+Current work includes:
+
+- modernization of a current-injection/test suitcase with PC control and parallel HMI
+- external TRIAC controllers and phase-angle control
+- UART communication and bootloader workflows
+- migration toward newer PIC architectures
+- acquisition and control firmware for electrical measurements
+- STM32-based instrumentation for circuit-breaker testing
+- hardware/software protocols designed for repeatable commissioning and protection tests
+
+### Operational automation & integrations
+
+I also work on automating real business processes around engineering services, including:
+
+- quotation approval and sales synchronization with Conta Azul
+- customer/contact data quality and import/export workflows
+- automatic commercial follow-up
+- e-mail-driven workflows
+- AI-assisted scope generation and operational support
+- progressive integration between engineering, commercial and administrative systems
+
+---
+
 ## What I work on
 
 ### ⚡ Electrical & Industrial Systems
@@ -35,7 +84,7 @@ Most of my projects start with a real engineering problem: a test instrument, a 
 
 I work with embedded hardware and firmware involving:
 
-- PIC microcontrollers
+- PIC and STM32 microcontrollers
 - UART and USB HID communication
 - Bootloaders and firmware update flows
 - ADC acquisition and calibration
@@ -69,6 +118,8 @@ Areas I have been working with:
 - PWAs and responsive web applications
 - Desktop applications with PySide6 / Qt
 - Automated testing and CI
+- Messaging systems, e-mail ingestion and outbound delivery
+- Idempotent background workflows and follow-up automation
 - Legacy-system modernization
 - Engineering software for electrical test systems
 
@@ -89,6 +140,7 @@ This includes work on:
 - migration from legacy SQLite systems to PostgreSQL
 - progressive replacement of legacy applications while preserving business rules and historical data
 - integrations and synchronization with external business platforms
+- e-mail messaging and automated commercial follow-up
 
 What interests me most in ERP development is not just building screens, but translating real operational rules into software without losing the knowledge already embedded in the business.
 
@@ -101,6 +153,8 @@ My current work includes:
 - AI-assisted software development
 - Autonomous development agents
 - Tool-calling LLMs
+- Agent workflows over business systems
+- Human-in-the-loop AI for commercial conversations
 - Local and cloud model infrastructure
 - Deterministic validation around AI systems
 - Natural-language interfaces over structured data
@@ -144,14 +198,15 @@ I believe good engineering is less about choosing the newest technology and more
 
 ## Currently exploring
 
-- Industrial AI
-- Machine learning applied to industry
-- Embedded instrumentation
-- Protection-relay test systems
-- Modern firmware architectures
+- Industrial AI and AI agents connected to real operational systems
+- Messaging automation and human-in-the-loop agents
+- Embedded instrumentation for electrical testing
+- Protection-relay and circuit-breaker test systems
+- Modern PIC and STM32 firmware architectures
+- Hardware/software integration for measurement and control
+- Multi-tenant ERP architecture
+- Legacy modernization with progressive migration
 - AI-assisted software engineering
-- Hardware/software integration
-- ERP architecture and operational automation
 
 ---
 
@@ -182,6 +237,53 @@ Sou **Técnico em Mecatrônica** e atuo na interseção entre **sistemas elétri
 
 Grande parte dos meus projetos começa com um problema real de engenharia: um equipamento de ensaio, um sistema de proteção, um processo industrial ou um fluxo operacional. A partir daí, desenvolvo a ponte entre hardware e software necessária para medir, controlar, automatizar e melhorar esse processo.
 
+### O que estou construindo agora
+
+Meu trabalho atual está concentrado em três frentes que acabam se conectando.
+
+#### E&S Platform
+
+Uma nova **plataforma operacional multi-tenant** para empresas de engenharia e serviços de campo, construída como monólito modular com **FastAPI, Next.js e PostgreSQL**.
+
+Os avanços mais recentes incluem:
+
+- domínios multi-tenant de clientes, contatos e propostas
+- migração e sincronização com ERP legado em Streamlit/SQLite
+- Messaging Core canônico para conversas comerciais
+- envio real por SMTP e recebimento incremental por IMAP
+- threading de e-mails e reconstrução de conversas
+- follow-up comercial determinístico com tentativas persistidas e idempotência
+- definição explícita do contato destinatário da proposta entre legado e nova plataforma
+- auditoria, retry seguro e substituição progressiva dos fluxos legados
+- preparação do **Volt**, agente de IA para mensagens inbound construído sobre os mesmos serviços de domínio e mensageria utilizados pelos usuários humanos
+
+A ideia arquitetural principal é substituir o sistema legado gradualmente, sem perder regras de negócio que já foram validadas em produção.
+
+#### Equipamentos de ensaio & instrumentação embarcada
+
+Continuo desenvolvendo e modernizando equipamentos de ensaio elétrico envolvendo **microcontroladores PIC e STM32**, software para PC e eletrônica de potência.
+
+O trabalho atual inclui:
+
+- modernização de mala de injeção/ensaio de corrente com controle por PC e IHM paralela
+- controladores externos com TRIAC e controle por ângulo de fase
+- comunicação UART e fluxos de bootloader
+- migração para arquiteturas PIC mais novas
+- firmware de aquisição e controle para grandezas elétricas
+- instrumentação baseada em STM32 para ensaios de disjuntores
+- protocolos hardware/software voltados a comissionamento e ensaios de proteção repetíveis
+
+#### Automação operacional & integrações
+
+Também trabalho na automação de processos reais ligados à prestação de serviços de engenharia, incluindo:
+
+- aprovação de propostas e sincronização de vendas com o Conta Azul
+- qualidade cadastral de clientes/contatos e fluxos de importação/exportação
+- follow-up comercial automático
+- workflows baseados em e-mail
+- geração de escopos assistida por IA e suporte operacional
+- integração progressiva entre engenharia, comercial e administrativo
+
 ### ⚡ Sistemas Elétricos & Industriais
 
 - Sistemas elétricos de média e baixa tensão
@@ -195,7 +297,7 @@ Grande parte dos meus projetos começa com um problema real de engenharia: um eq
 
 Trabalho com hardware e firmware envolvendo:
 
-- Microcontroladores PIC
+- Microcontroladores PIC e STM32
 - Comunicação UART e USB HID
 - Bootloaders e atualização de firmware
 - Aquisição e calibração por ADC
@@ -218,6 +320,8 @@ Meus projetos de engenharia vêm evoluindo cada vez mais para produtos de softwa
 - PWAs e aplicações web responsivas
 - Aplicações desktop com PySide6 / Qt
 - Testes automatizados e CI
+- Sistemas de mensageria, ingestão e envio de e-mails
+- Workflows idempotentes e automação de follow-up
 - Modernização de sistemas legados
 - Software de engenharia para sistemas de ensaio elétrico
 
@@ -238,6 +342,7 @@ Esse trabalho envolve:
 - migração de sistemas legados em SQLite para PostgreSQL
 - substituição progressiva de aplicações legadas preservando regras de negócio e histórico
 - integrações e sincronização com plataformas externas de gestão
+- mensageria por e-mail e follow-up comercial automático
 
 O que mais me interessa em ERP não é apenas construir telas, mas **transformar regras operacionais reais em software sem perder o conhecimento que já existe dentro do negócio**.
 
@@ -250,6 +355,8 @@ Atualmente venho trabalhando com:
 - Desenvolvimento de software assistido por IA
 - Agentes autônomos de desenvolvimento
 - LLMs com tool calling
+- Workflows de agentes sobre sistemas de negócio
+- IA human-in-the-loop para conversas comerciais
 - Infraestrutura para modelos locais e em nuvem
 - Validação determinística ao redor de sistemas de IA
 - Interfaces em linguagem natural para dados estruturados
@@ -285,14 +392,15 @@ Acredito que boa engenharia tem menos a ver com escolher a tecnologia mais nova 
 
 ### Atualmente explorando
 
-- IA aplicada à indústria
-- Machine Learning aplicado à indústria
-- Instrumentação embarcada
-- Sistemas de ensaio para relés de proteção
-- Arquiteturas modernas de firmware
+- IA industrial e agentes conectados a sistemas operacionais reais
+- Automação de mensageria e agentes human-in-the-loop
+- Instrumentação embarcada para ensaios elétricos
+- Sistemas de ensaio de relés de proteção e disjuntores
+- Arquiteturas modernas de firmware PIC e STM32
+- Integração hardware/software para medição e controle
+- Arquitetura de ERP multi-tenant
+- Modernização de legado com migração progressiva
 - Engenharia de software assistida por IA
-- Integração entre hardware e software
-- Arquitetura de ERP e automação operacional
 
 <div align="center">
 
